@@ -61,14 +61,6 @@ body {
   color: var(--accent-color);
 }
 .dark-logo {
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--primary-text-color);
 }
 .menu-link {
@@ -79,7 +71,8 @@ body {
   color: var(--primary-text-color);
 }
 
-.menu-link:active {
+.menu-link:focus,
+.menu-link:hover {
   color: var(--style-color);
 }
 
@@ -89,8 +82,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-
-.contact-link:active {
+.contact-link:focus,
+.contact-link:hover {
   color: var(--style-color);
 }
 
@@ -117,6 +110,7 @@ body {
   color: var(--contrast-text-color);
   background: var(--accent-color);
   cursor: pointer;
+  border: none;
 }
 .button:hover,
 .button:focus {
@@ -154,14 +148,6 @@ body {
   color: var(--dark-color-theme);
 }
 .light-logo {
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--accent-color-second);
 }
 .footer {
